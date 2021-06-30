@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.comment_list ul{
+	padding: 0;
+	margin-bottom: 0
+}
+.comment_list ul li{
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+}
+.the_loader{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.notfound{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
